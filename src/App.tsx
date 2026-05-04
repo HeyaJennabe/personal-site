@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router";
 import HomePage from "./pages/HomePage";
+import ExperiencePage from "./pages/ExperiencePage";
 import ProjectsPage from "./pages/ProjectsPage";
 
 const App: FC = () => {
@@ -14,6 +15,7 @@ const App: FC = () => {
       <main className="mx-auto flex h-screen w-full flex-col">
         <Routes>
           <Route path="/home" element={<HomePage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/" element={<Navigate to="/home" />} />
         </Routes>

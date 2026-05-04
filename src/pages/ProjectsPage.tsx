@@ -7,26 +7,63 @@ const ProjectsPage: FC = () => {
     <div>
       <Navbar />
       <section id="Intro" className="relative h-[80vh]">
-        <img className="z-0 object-cover absolute h-full w-full" src="/images/frutiger.png" alt="bg"/>
+        <img className="z-0 object-cover absolute h-full w-full rounded-b-2xl" src="/images/frutiger.png" alt="bg"/>
         <div className="z-10 absolute h-full w-full grid grid-cols-1 sm:grid-cols-2">
           <div className="relative">
             <img className="absolute bottom-0 w-full" src="/images/me.png" alt="Ikzeluf" />
           </div>
           <div className="flex justify-center p-4 order-first sm:order-2">
             <div className="self-center rounded-lg bg-gray-700/50 p-2 text-center text-white">
-              <h1 className="text-4xl font-semibold">Mijn projecten!</h1>
-              <h4>School & Persoonlijke projecten</h4>
+              <h1 className="text-4xl font-semibold">Dit zijn mijn projecten!</h1>
+              <h2>School & Persoonlijke projecten</h2>
               <ProjectIcons />
             </div>
           </div>
         </div>
       </section>
-      <section id="Gecko" className="mx-auto max-w-5xl px-5 py-10 md:px-8">
+      <section id="Bonus" className="mx-auto max-w-5xl px-5 py-10 md:px-8">
         <div className="text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div>
-            <h1 className="text-4xl font-bold">Death Swap: End as One</h1>
+            <h3 className="text-4xl font-bold">The Bonus Level</h3>
             <br />
-            <p>3D Game project</p>
+            <h4>Powerpoint Game project</h4>
+            <br />
+            <br />
+            <div className="text-justify">
+              <p>
+                The Bonus Level is een game gemaakt in powerpoint
+                voor de "Make us laugh contest". Voor dit project combineer ik alle
+                kennis over PowerPoint die ik de afgelopen 7 jaar heb opgebouwd.
+              </p>
+              <br />
+              <br />
+              <p>
+                In The Bonus Level, speel je door diverse bekende game scenario's, waarin je de meest onverwachte twists zult ontdekken. 
+                Meer hierover deel ik op release.
+              </p>
+              <br />
+              <br />
+              <p>
+                De humor in The Bonus Level is expres over de top. 
+                Deze is karakteristiek voor de jury van de competitie. 
+                Het doel van dit spel is om te laten zien hoe bekende game elementen in PowerPoint mogelijk zijn.
+              </p>
+            </div>
+            <br />
+            <br />
+            <p>The Bonus Level zal worden uitgebracht op 31 mei 2026!</p>
+          </div>
+          <div>
+            <img className="rounded-2xl" src="/images/projects/Bonus.png" alt="Bonus" />
+          </div>
+        </div>
+      </section>
+      <section id="Gecko" className="bg-gray-100">
+        <div className="mx-auto max-w-5xl px-5 py-10 text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-8 md:px-8">
+          <div>
+            <h3 className="text-4xl font-bold">Death Swap: End as One</h3>
+            <br />
+            <h4>3D Game project</h4>
             <br />
             <br />
             <div className="text-justify">
@@ -62,16 +99,16 @@ const ProjectsPage: FC = () => {
             </a>
           </div>
           <div>
-            <img src="/images/projects/Death-Swap.png" alt="DeathSwap" />
+            <img className="rounded-2xl" src="/images/projects/Death-Swap.png" alt="DeathSwap" />
           </div>
         </div>
       </section>
-      <section id="Qoala" className="bg-gray-100">
-        <div className="mx-auto max-w-5xl px-5 py-10 text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-8 md:px-8">
+      <section id="Qoala" className="mx-auto max-w-5xl px-5 py-10 md:px-8">
+        <div className="text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div>
-            <h1 className="text-4xl font-bold">Snatcher!</h1>
+            <h3 className="text-4xl font-bold">Snatcher!</h3>
             <br />
-            <p>2D Game project</p>
+            <h4>2D Game project</h4>
             <br />
             <br />
             <div className="text-justify">
@@ -108,7 +145,7 @@ const ProjectsPage: FC = () => {
             </a>
           </div>
           <div>
-            <img src="/images/projects/Snatcher.png" />
+            <img className="rounded-2xl" src="/images/projects/Snatcher.png" />
           </div>
         </div>
       </section>

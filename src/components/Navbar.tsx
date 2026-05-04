@@ -5,6 +5,7 @@ const Navbar: FC = () => {
   const navigate = useNavigate();
   const navigation = [
     { name: "Home", href: "/home" },
+    { name: "Ervaring", href: "/experience" },
     { name: "Projecten", href: "/projects" },
   ];
 
@@ -16,7 +17,7 @@ const Navbar: FC = () => {
           src="/images/pfp.jpeg"
         />
         <p className="ml-4 hidden text-xl font-medium text-gray-700 sm:block">
-          +*~Jennabe~*+
+          <a href="/home">+*~Jennabe~*+</a>
         </p>
       </div>
       <div className="flex grow justify-end">

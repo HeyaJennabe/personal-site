@@ -3,11 +3,6 @@ import type { FC } from "react";
 const SocialIcons: FC = () => {
   const socials = [
     {
-      id: "Github",
-      href: "https://github.com/HeyaJennabe",
-      src: "/images/socials/Github.svg",
-    },
-    {
       id: "Spotify",
       href: "https://open.spotify.com/user/8izpvibrk75uphjfh3fkoq5a4?si=1799be8c1dc24c88",
       src: "/images/socials/Spotify.svg",
