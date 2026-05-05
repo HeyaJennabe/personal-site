@@ -19,11 +19,11 @@ const HomePage: FC = () => {
       <Navbar />
       <section id="Intro" className="relative h-[80vh]">
         <img className="z-0 object-cover absolute h-full w-full rounded-b-2xl" src="/images/frutiger.png" alt="bg"/>
-        <div className="z-10 absolute h-full w-full grid grid-cols-1 sm:grid-cols-2">
-          <div className="relative">
+        <div className="absolute h-full w-full grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-2">
+          <div className="relative z-10 lg:col-span-2 xl:col-span-1 lg:overflow-y-hidden">
             <img className="absolute bottom-0 w-full" src="/images/me.png" alt="Ikzeluf" />
           </div>
-          <div className="flex justify-center p-4 order-first sm:order-2">
+          <div className="flex z-20 justify-center p-4 order-first lg:order-2">
             <div className="self-center rounded-lg bg-gray-700/50 p-2 text-center text-white">
               <h1 className="text-4xl font-semibold">Heya, ik ben Jenna!</h1>
               <h2>Software developer</h2>

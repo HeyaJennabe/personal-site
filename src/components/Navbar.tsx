@@ -24,7 +24,7 @@ const Navbar: FC = () => {
         {navigation.map((item) => (
           <button
             key={item.name}
-            className="mx-2 cursor-pointer rounded-md bg-white px-4 py-2 font-medium text-slate-400 hover:text-slate-600"
+            className="mx-2 cursor-pointer rounded-md bg-white sm:px-4 py-2 font-medium text-slate-400 hover:text-slate-600"
             onClick={() => navigate(item.href)}
           >
             {item.name}

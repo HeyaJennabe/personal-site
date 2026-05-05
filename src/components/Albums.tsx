@@ -42,17 +42,41 @@ const Albums: FC = () => {
       image: "/images/albums/Yungblud.png",
       spotifyLink: "",
     },
+    {
+      id: "slipknot",
+      artist: "Slipknot",
+      title: "Slipknot",
+      description: "",
+      image: "/images/albums/Slipknot.png",
+      spotifyLink: "",
+    },
+    {
+      id: "aespa",
+      artist: "Aespa",
+      title: "Armageddon",
+      description: "",
+      image: "/images/albums/Aespa.png",
+      spotifyLink: "",
+    },
+    {
+      id: "jennie",
+      artist: "Jennie",
+      title: "Ruby",
+      description: "",
+      image: "/images/albums/Jennie.png",
+      spotifyLink: "",
+    },
   ];
 
   return (
-    <div className="grid sm:grid-cols-5 gap-4 w-full items-center justify-center">
+    <div className="flex flex-row gap-4 w-full overflow-x-scroll">
       {albums.map((album) => (
-        <div className="flex sm:flex-col  sm:w-full items-center">
+        <div className="flex flex-col items-center min-w-[40%] sm:min-w-[33%] md:min-w-[25%]">
             <img
-                className="rounded-2xl self-center w-[50%] sm:w-full object-contain mb-2"
+                className="rounded-2xl self-center w-full object-contain"
                 src={album.image}
             />
-            <div className="flex flex-col items-center w-full">
+            <div className="flex flex-col items-center w-full my-2">
               <h3 className="font-bold text-xl text-center overflow-hidden">{album.artist}</h3>
               <h4 className="italic text-lg">{album.title}</h4>
             </div>
