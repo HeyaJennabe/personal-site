@@ -76,8 +76,8 @@ const Albums: FC = () => {
                 className="rounded-2xl self-center w-full object-contain"
                 src={album.image}
             />
-            <div className="flex flex-col items-center w-full my-2">
-              <h3 className="font-bold text-xl text-center overflow-hidden">{album.artist}</h3>
+            <div className="flex flex-col text-center items-center w-full my-2">
+              <h3 className="font-bold text-xl overflow-hidden">{album.artist}</h3>
               <h4 className="italic text-lg">{album.title}</h4>
             </div>
         </div>
