@@ -39,7 +39,7 @@ const HomePage: FC = () => {
           <p>
             Mijn naam is Jenna Uijtdewilligen. Ik ben {getAge()} jaar en woon in Bergen op Zoom.
             In 2024 ben ik afgestudeerd voor de opleiding HBO Informatica aan Hogeschool Rotterdam. 
-            Sindsdien werk ik aan allerlei websites, games, powerpoints en andere digitale creatieve projecten.
+            Sindsdien werk ik aan allerlei websites, games, PowerPoints en andere digitale creatieve projecten.
           </p>
           <br />
           <p>
@@ -60,6 +60,14 @@ const HomePage: FC = () => {
             Voor mij is inclusiviteit erg belangrijk. 
             Ik hou ervan om volledig mezelf te kunnen zijn bij mijn vrienden en familie. 
           </p>
+          <br />
+          <div className="w-full flex flex-row justify-center gap-4">
+            <img className="hidden sm:block h-auto w-[16%]" src="images/VectorLeft.png" alt="vectorLeft" />
+            <div className="w-full sm:w-[75%] h-full self-center">
+              <img className="w-full h-auto rounded-2xl" src="images/outside.png" alt="outside" />
+            </div>
+            <img className="hidden sm:block h-auto w-[16%]" src="images/VectorRight.png" alt="vectorRight" />
+          </div>
         </div>
       </section>
       <section id="Music" className="bg-gray-100">

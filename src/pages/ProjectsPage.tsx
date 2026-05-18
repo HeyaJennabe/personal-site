@@ -26,12 +26,12 @@ const ProjectsPage: FC = () => {
           <div>
             <h3 className="text-4xl font-bold">The Bonus Level</h3>
             <br />
-            <h4>Powerpoint Game project</h4>
+            <h4>PowerPoint Game project</h4>
             <br />
             <br />
             <div className="text-justify">
               <p>
-                The Bonus Level is een game gemaakt in powerpoint
+                The Bonus Level is een game gemaakt in PowerPoint
                 voor de "Make us laugh contest". Voor dit project combineer ik alle
                 kennis over PowerPoint die ik de afgelopen 7 jaar heb opgebouwd.
               </p>
@@ -127,7 +127,7 @@ const ProjectsPage: FC = () => {
               <br/>
               <br/>
               <p>
-                In snatcher ren je door een oneindige supermarkt. 
+                In Snatcher ren je door een oneindige supermarkt. 
                 Hier ontwijk je obstakels, en pak je de producten die oma vraagt. 
                 Hoe bozer oma wordt, hoe sneller het spel zal zijn. Hoe ver kan jij komen?
               </p>
@@ -146,6 +146,52 @@ const ProjectsPage: FC = () => {
           </div>
           <div>
             <img className="rounded-2xl" src="/images/projects/Snatcher.png" />
+          </div>
+        </div>
+      </section>
+      <section id="Klimatus" className="bg-gray-100">
+        <div className="mx-auto max-w-5xl px-5 py-10 text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-8 md:px-8">
+          <div>
+            <h3 className="text-4xl font-bold">Klimatus</h3>
+            <br />
+            <h4>PowerPoint Game project</h4>
+            <br />
+            <br />
+            <div className="text-justify">
+              <p>
+                Klimatus was mijn eerste voltooide PowerPoint game. 
+                Tijdens het keuzevak "Serious Games" heb ik deze game ontwikkeld. 
+                Aangezien dit project een prototype is, bedoeld voor een presentatie, bevat deze game geen manier om te verliezen.
+              </p>
+              <br />
+              <br />
+              <p>
+                Er gebeuren vreemde dingen in de stad Klimatus. 
+                De medewerkers van de fabriek voeren vreemde praktijken uit. 
+                De natuur begint vreemde dingen te vertonen. 
+                Kom jij er achter wat er gaande is?
+              </p>
+              <br />
+              <br />
+              <p>
+                In Klimatus probeer je door kleine acties de natuur te helpen. 
+                Wat begint met het opruimen van lege flessen, loopt uit tot het doven van een bosbrand. 
+                Ben jij in staat om de stad te redden?
+              </p>
+            </div>
+            <br />
+            <br />
+            <p>Klimatus is gratis te downloaden! PowerPoint is vereist.</p>
+            <a
+              className="text-blue-400 hover:text-blue-500"
+              href="https://drive.google.com/drive/folders/1gt5iyU5o0OJLN08X3wnYmS__8A7b9kro?usp=sharing"
+              target="_blank"
+            >
+              Link naar de download pagina!
+            </a>
+          </div>
+          <div>
+            <img className="rounded-2xl" src="/images/projects/Klimatus.png" alt="Klimatus" />
           </div>
         </div>
       </section>
